@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: #191919;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 119px;
+    align-items: center;
+    
+}
+h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+a {
+    color:  #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #118DA8;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2;
+    transition: background-color 0.3s ease;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.slider {
+    width: 1500px;
+}
+.VCentreVnimaniya {
+    margin-top: 50px;
+    max-width: 100vw;
+    height: auto;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.VCV1 {
+    margin: 10px 15px 10px 15px;
+    width: 250px;
+    height: 350px;
+}
+hr {
+    margin-top: 30px;
+}
+.VCV {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+h3 {
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+h2 {
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+}
+img {
+    border-radius: 15px;
+}
+.mainimg {
+    width: 250px;
+    height: 250px;
+}
+.mainimg:hover {
+    border: 1px solid #fff;
+}
+footer {
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+}
+.logofooter {
+    width: 270px;
+    height: 100px;
+    text-align: center;
+    margin-right: 100px;
+}
+.twoandthree {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.seti {
+    margin: 5px 5px 0px 5px;
+}
+.footer2 {
+    width: 200px;
+    height: 222px;
+}
+.footer3 {
+    width: 200px;
+    height: 222px;
+}
+.listen-on2 {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.listen-on1 {
+    width: 35px;
+    height: 35px;
+    border-radius: none;
+    border: none;
+}
+.seti {
+    width: 20px;
+    height: 20px;
+    border-radius: none;
+    border: none;
+}
+.listen-on1:hover {
+    transform: scale(1.5);
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        max-width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        display: block;
+    }
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    nav {
+        margin-top: 50px;
+        max-width: 100vw;
+        text-align: center;
+    }
+    a {
+        font-size: 20px;
+        margin: 0px 3px 0px 3px;
+    }
+    footer {
+        margin: 0;
+        display: block;
+    }
+    .logofooter {
+        margin: 0;
+        width: 100vw;
+        height: 70px;
+    }
+    .setifooter{
+        display: flex;
+        justify-content: center;
+    }
+    .seti {
+        margin: 10px 10px 0px 10px;
+    }
+    .footer2 {
+        margin: 0;
+    }
+    .footer3 {
+        margin: 0;
+    }
+    .twoandthree {
+        padding: 60px 0px 0px 0px;
+        width: 100vw;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .listen-on2 {
+        margin: 0px 0px 50px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .slider {
+        max-width: 100vw;
+        height: auto;
+        margin-top: 120px;
+
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .VCV1 {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .VCentreVnimaniya {
+        margin-top: 10px;
+        padding: 0;
+    }
+}
